@@ -8,4 +8,5 @@ and run `npm install` in the package-directory. Then you can run the following e
   * **custom-less.js** extends this example by including a custom [{less}](http://lesscss.org)-file.
   * **custom-full.js** shows all possible customizations (custom partials, custom less-include-paths).
     Custom template would be possible, but is not included yet).
-
+* **config-file** provides a config-file for the command-line-tool. Run
+  `bootprint swagger -f bootprint-config.js http://petstore.swagger.io/v2/swagger.json target`

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nknapp/bootprint-examples/issues"
   },
-  "homepage": "https://github.com/nknapp/bootprint-examples"
+  "homepage": "https://github.com/nknapp/bootprint-examples",
+  "dependencies": {
+    "bootswatch": "^3.3.4"
+  }
 }
