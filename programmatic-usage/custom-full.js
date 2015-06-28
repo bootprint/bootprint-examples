@@ -12,9 +12,11 @@ var bootprint = require("bootprint")
             main: require.resolve("./custom-full.less"),
             paths: path.join(__dirname,"less-includes")
         },
-        partials: path.join(__dirname, "template"),
-        // You could provide a custom template file here, but we rather override a partial
-        template: undefined
+        handlebars: {
+            partials: path.join(__dirname, "template"),
+            // You could provide a custom template file here, but we rather override a partial
+            template: undefined
+        }
     })
     .build("http://json-schema.org/schema","target");
 
