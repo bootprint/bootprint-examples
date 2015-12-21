@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Examples for a bootprint-module",
   "main": "bootprint-options.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "private": true,
   "repository": {
     "type": "git",
@@ -18,6 +15,7 @@
   },
   "homepage": "https://github.com/nknapp/bootprint-examples",
   "dependencies": {
-    "bootswatch": "^3.3.4"
+    "bootprint": "<1.0.0>",
+    "bootprint-json-schema": "<1.0.0>"
   }
 }
